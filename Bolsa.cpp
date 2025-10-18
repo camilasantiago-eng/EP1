@@ -1,5 +1,5 @@
 #include "Bolsa.h"
-#define BOLSA_USP 700.0
+
 Bolsa::Bolsa(Data *inicio, Data *fim, Professor *responsavel)
 {
     this->inicio = inicio;
@@ -9,7 +9,7 @@ Bolsa::Bolsa(Data *inicio, Data *fim, Professor *responsavel)
 Bolsa::~Bolsa(){
     delete inicio;
     delete fim;
-    delete responsavel;
+    
 }
 
     
